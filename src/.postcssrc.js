@@ -18,6 +18,8 @@ module.exports = {
 
         return file.indexOf('vant') !== -1 ? 37.5:75 
       },
+      // 配置不要转化的样式资源
+      exclude:'git-hub-markdown',
 
       propList: ['*']
     }
